@@ -33,7 +33,7 @@ And run 'make workshop-check' *before* committing to make sure that changes are 
 {% comment %}
 {% comment %}
 Check DC curriculum
-{% endcomment %}
+
 
 {% if site.carpentry == "dc" %}
 {% unless site.curriculum == "dc-astronomy" or site.curriculum == "dc-ecology" or site.curriculum == "dc-genomics" or site.curriculum == "dc-geospatial" or site.curriculum == "dc-image" or site.curriculum == "dc-socsci" %}
